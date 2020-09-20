@@ -1,0 +1,752 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.wraper {
+    width: 1600px;
+    height: 744px;
+    background-image: url("assets/img/bg-image.png");
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    width: 1600px;
+    height: 95px;
+}
+
+.header div {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.aboutHeader {
+    width: 38px;
+    height: 21px;
+    margin-left: 502px;
+    margin-top: 38px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.syllabusHeader {
+    margin-left: 85px;
+    margin-top: 38px;
+    width: 53px;
+    height: 20px;
+    opacity: 0.7;
+
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.projectsHeader {
+    margin-top: 38px;
+    margin-left: 101px;
+    width: 52px;
+    height: 20px;
+    opacity: 0.7;
+
+}
+
+.faqHeader {
+    margin-left: 83px;
+    margin-top: 38px;
+    width: 26px;
+    height: 20px;
+    opacity: 0.7;
+}
+
+.header div:hover {
+    border-bottom: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+
+.H1YourLife {
+    margin-left: 439px;
+    margin-top: 136px;
+    width: 730px;
+    height: 75px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.PrintYourLife {
+    width: 504px;
+    height: 50px;
+    margin-left: 548px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.MainButton {
+    width: 184px;
+    height: 46px;
+    margin-left: 707px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    align-self: center;
+    background: #00AFDB;
+    border:none;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+}
+
+.MainButton p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.MainButton:hover {
+    border-radius: 15px;
+    color:#009CC2;;
+}
+
+.social {
+    margin-left: 715px;
+    margin-top: 183px;
+    display: flex;
+    width: 170px;
+    height: 20px;
+}
+
+.socialFacebook {
+    position: relative;
+    right: 13.5px;
+}
+.socialYoutube {
+    position: relative;
+    right: 15px;
+}
+
+.socialEl {
+    margin-left: 30px;
+}
+
+.social3 {
+    margin-left: 25px;
+}
+
+.social img:hover {
+    cursor: pointer;
+}
+
+.Rappresent {
+    width: 1600px;
+    height: 842px;
+    background-color:#FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wraper2Left {
+    float: left;
+}
+.wraper2Right {
+    margin-top: 120px;
+    margin-right: 270px;
+    float: right;
+}
+.wraper2content {
+    margin-top: 296px;
+    margin-left: 267px;
+    width: 407px;
+    height: 233px;
+}
+
+.wraper2h1 {
+    position: relative;
+    left: 2.5px;
+    top: -1px;
+    width:367px;
+    height: 57px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 21px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.wraper2P {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    width: 80px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.wraper2Button {
+    width: 184px;
+    height: 46px;
+    margin-top: 33px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    align-self: center;
+    background: #00AFDB;
+    border:none;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+}
+
+.wraper2Button p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.wraper2Button:hover {
+    border-radius: 15px;
+    color:#009CC2;;
+}
+
+.OurCommunity {
+    width: 1600px;
+    height: 504px;
+    background-color:#F5F6F7;;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Paginator {
+    width: 83px;
+    height: 18px;
+    float: right;
+    margin-right: 269px;
+    margin-top: 82px;
+}
+
+
+.Paginator span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #373737;
+}
+
+.paginatorPr:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.OurCommunityWraperLeft {
+    float: left;
+    margin-top: 155px;
+    margin-left: 269px;
+    width: 298px;
+    height: 175px;
+}
+.OurCommunityWraperRight {
+    margin-top: 20px;
+    float: right;
+}
+
+.imgAva {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.OurCommunityH1 {
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 2.4px;
+}
+
+.OurCommunityP {
+    margin-top: -85px;
+    width:298px;
+    height: 175px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: flex-end;
+    color: #4E4E4E;
+}
+
+.firstImg {
+    position: relative;
+    left: 24px;
+    margin-right: 75px;
+    width: 407px;
+    height: 244px;
+}
+
+
+
+.secondImg {
+    position: relative;
+    left: -25px;
+}
+
+.obrez {
+    width: 20px;
+    height: 244px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.Implement {
+    width: 1600px;
+    height: 842px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+}
+
+.ImplementImg {
+    width: 407px;
+    height: 582px;
+    margin-top: 120px;
+    margin-left: 269px;
+}
+
+.ImplementDiv {
+    float:right;
+    margin-top: 319px;
+    margin-right: 378px;
+    width: 407px;
+    height: 184px;
+}
+
+.ImplementH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.ImplementP {
+    width: 407px;
+    height: 60px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.SignUp {
+    width: 1600px;
+    height: 598px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("assets/img/pexels-christina-morillo-1181675 1.png");
+}
+
+.SignUpH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 217px;
+    margin-left: 610px;
+}
+
+.email {
+    margin-top: 30px;
+    margin-left: 597px;
+    width: 340px;
+    height: 46px;
+    background-color: #FFFFFF;
+    border-radius: 0;
+    padding: 14px 24px;
+    border: none;
+}
+
+.emailBlock {
+    width:66px;
+    height:46px;
+    background-color: #00AFDB;
+    position: relative;
+    left:937px;
+    top: -46px;
+}
+
+.emailBlock img {
+    position: relative;
+    left:24px;
+    top:14.75px;
+}
+
+.emailBlock:hover {
+    background-color:#009CC2;
+    cursor: pointer;
+}
+
+.Download {
+    width: 1600px;
+    height: 468px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F6F7;
+}
+
+.DownloadH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-left: 675px;
+    padding-top: 120px;
+}
+.DownloadP1 {
+    width: 483px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+    margin-left: 558px;
+    margin-top: 21px;
+}
+
+.APPLESTORE {
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 597px;
+    width:128px;
+    height: 50px;
+    background-color: #00AFDB;
+    transition: all 0.3s ease-out;
+}
+
+.APPLESTORE p {
+    position: relative;
+    left:19px;
+    top:18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.APPLESTOREAPP {
+    width: 60px;
+    cursor: pointer;
+    height: 50px;
+    background-color: #009CC2;
+    position: relative;
+    top: -50px;
+    left: 724px;
+}
+
+.APPLESTOREAPP img {
+    position: relative;
+    top:15.75px;
+    left:22.51px;
+}
+
+.Paginator1 {
+    position: relative;
+    left: 11px;
+}
+.Paginator2 {
+    position: relative;
+    left:22px
+}
+
+.wraper3Button {
+    width: 180px;
+    height: 46px;
+    margin-top: 31px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    align-self: center;
+    background: #00AFDB;
+    border:none;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+}
+
+.wraper3Button p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.wraper3Button:hover {
+    border-radius: 15px;
+    color:#009CC2;;
+}
+
+.PLAYMARKET {
+    margin-top: -99px;
+    cursor: pointer;
+    margin-left: 815px;
+    width:128px;
+    height: 50px;
+    background: #00AFDB;
+    transition: 0.4s all ease-out;
+}
+
+.PLAYMARKET p {
+    position: relative;
+    left:19px;
+    top:18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.PLAYMARKETAPP {
+    width: 60px;
+    cursor: pointer;
+    height: 50px;
+    background-color: #009CC2;
+    position: relative;
+    left: 943px;
+    top: -50px;
+}
+
+.PLAYMARKETAPP img {
+    position: relative;
+    top:13.47px;
+    left:21.1px;
+}
+
+.PLAYMARKET:hover {
+    border-radius: 25px 0 0 25px;
+}
+.APPLESTORE:hover {
+    border-radius: 25px 0 0 25px;
+}
+
+.footer {
+    display: flex;
+    width: 1600px;
+    height: 184px;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerLogo {
+    margin-top: 60px;
+    margin-left: 778px;
+}
+
+.Credits {
+    position: relative;
+    top: 73px;
+    left: -663px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.Credits:after {
+    content: '      |';
+}
+
+.Credits:hover {
+    color: gold;
+}
+
+.Privacy {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+    position: relative;
+    left: -645px;
+    top: 74px;
+}
+
+.Privacy:after {
+    content: '     |';
+}
+
+.Privacy:hover {
+    color: gold;
+}
+
+.OurTeams {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+    position: relative;
+    left: -625px;
+    top: 74px;
+}
+
+.OurTeams:hover {
+    color: gold;
+}
+
+.c {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #818181;
+    position: relative;
+    left: 251px;
+    top: 73px;
+}
+
+
