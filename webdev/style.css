@@ -393,4 +393,103 @@ strong {
     overflow: hidden;
 }
 
+.Implement {
+    width: 1600px;
+    height: 842px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+}
+
+.ImplementImg {
+    width: 407px;
+    height: 582px;
+    margin-top: 120px;
+    margin-left: 269px;
+}
+
+.ImplementDiv {
+    float:right;
+    margin-top: 319px;
+    margin-right: 378px;
+    width: 407px;
+    height: 184px;
+}
+
+.ImplementH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.ImplementP {
+    width: 407px;
+    height: 60px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.SignUp {
+    width: 1600px;
+    height: 598px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("assets/img/pexels-christina-morillo-1181675 1.png");
+}
+
+.SignUpH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 217px;
+    margin-left: 610px;
+}
+
+.email {
+    margin-top: 30px;
+    margin-left: 597px;
+    width: 340px;
+    height: 46px;
+    background-color: #FFFFFF;
+    border-radius: 0;
+    padding: 14px 24px;
+    border: none;
+}
+
+.emailBlock {
+    width:66px;
+    height:46px;
+    background-color: #00AFDB;
+    position: relative;
+    left:937px;
+    top: -46px;
+}
+
+.emailBlock img {
+    position: relative;
+    left:24px;
+    top:14.75px;
+}
+
+.emailBlock:hover {
+    background-color:#009CC2;
+    cursor: pointer;
+}
 
