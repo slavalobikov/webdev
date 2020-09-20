@@ -129,7 +129,7 @@ html {
 
 
 .H1YourLife {
-    margin-left: 435px;
+    margin-left: 439px;
     margin-top: 136px;
     width: 730px;
     height: 75px;
@@ -190,7 +190,7 @@ html {
 
 .MainButton:hover {
     border-radius: 15px;
-    color:#01AECB;
+    color:#009CC2;;
 }
 
 .social {
@@ -246,6 +246,9 @@ html {
 }
 
 .wraper2h1 {
+    position: relative;
+    left: 2.5px;
+    top: -1px;
     width:367px;
     height: 57px;
     font-style: normal;
@@ -257,7 +260,7 @@ html {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #373737;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
 strong {
@@ -276,7 +279,8 @@ strong {
 .wraper2Button {
     width: 184px;
     height: 46px;
-    margin-top: 30px;
+    margin-top: 33px;
+    margin-left: 2px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -302,7 +306,7 @@ strong {
 
 .wraper2Button:hover {
     border-radius: 15px;
-    color:#01AECB;
+    color:#009CC2;;
 }
 
 .OurCommunity {
@@ -358,7 +362,7 @@ strong {
 }
 
 .OurCommunityP {
-    margin-top: -90px;
+    margin-top: -85px;
     width:298px;
     height: 175px;
     text-align: center;
@@ -492,4 +496,256 @@ strong {
     background-color:#009CC2;
     cursor: pointer;
 }
+
+.Download {
+    width: 1600px;
+    height: 468px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5F6F7;
+}
+
+.DownloadH1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-left: 675px;
+    padding-top: 120px;
+}
+.DownloadP1 {
+    width: 483px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+    margin-left: 558px;
+    margin-top: 21px;
+}
+
+.APPLESTORE {
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 597px;
+    width:128px;
+    height: 50px;
+    background-color: #00AFDB;
+    transition: all 0.3s ease-out;
+}
+
+.APPLESTORE p {
+    position: relative;
+    left:19px;
+    top:18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.APPLESTOREAPP {
+    width: 60px;
+    cursor: pointer;
+    height: 50px;
+    background-color: #009CC2;
+    position: relative;
+    top: -50px;
+    left: 724px;
+}
+
+.APPLESTOREAPP img {
+    position: relative;
+    top:15.75px;
+    left:22.51px;
+}
+
+.Paginator1 {
+    position: relative;
+    left: 11px;
+}
+.Paginator2 {
+    position: relative;
+    left:22px
+}
+
+.wraper3Button {
+    width: 180px;
+    height: 46px;
+    margin-top: 31px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    align-self: center;
+    background: #00AFDB;
+    border:none;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+}
+
+.wraper3Button p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.wraper3Button:hover {
+    border-radius: 15px;
+    color:#009CC2;;
+}
+
+.PLAYMARKET {
+    margin-top: -99px;
+    cursor: pointer;
+    margin-left: 815px;
+    width:128px;
+    height: 50px;
+    background: #00AFDB;
+    transition: 0.4s all ease-out;
+}
+
+.PLAYMARKET p {
+    position: relative;
+    left:19px;
+    top:18px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.PLAYMARKETAPP {
+    width: 60px;
+    cursor: pointer;
+    height: 50px;
+    background-color: #009CC2;
+    position: relative;
+    left: 943px;
+    top: -50px;
+}
+
+.PLAYMARKETAPP img {
+    position: relative;
+    top:13.47px;
+    left:21.1px;
+}
+
+.PLAYMARKET:hover {
+    border-radius: 25px 0 0 25px;
+}
+.APPLESTORE:hover {
+    border-radius: 25px 0 0 25px;
+}
+
+.footer {
+    display: flex;
+    width: 1600px;
+    height: 184px;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerLogo {
+    margin-top: 60px;
+    margin-left: 778px;
+}
+
+.Credits {
+    position: relative;
+    top: 73px;
+    left: -663px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.Credits:after {
+    content: '      |';
+}
+
+.Credits:hover {
+    color: gold;
+}
+
+.Privacy {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+    position: relative;
+    left: -645px;
+    top: 74px;
+}
+
+.Privacy:after {
+    content: '     |';
+}
+
+.Privacy:hover {
+    color: gold;
+}
+
+.OurTeams {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    cursor: pointer;
+    position: relative;
+    left: -625px;
+    top: 74px;
+}
+
+.OurTeams:hover {
+    color: gold;
+}
+
+.c {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #818181;
+    position: relative;
+    left: 251px;
+    top: 73px;
+}
+
 
