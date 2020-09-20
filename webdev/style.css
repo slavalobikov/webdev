@@ -175,6 +175,7 @@ html {
     background: #00AFDB;
     border:none;
     justify-content: center;
+    cursor: pointer;
     transition: 0.4s all ease-out;
 }
 
@@ -221,6 +222,175 @@ html {
     cursor: pointer;
 }
 
+.Rappresent {
+    width: 1600px;
+    height: 842px;
+    background-color:#FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.wraper2Left {
+    float: left;
+}
+.wraper2Right {
+    margin-top: 120px;
+    margin-right: 270px;
+    float: right;
+}
+.wraper2content {
+    margin-top: 296px;
+    margin-left: 267px;
+    width: 407px;
+    height: 233px;
+}
+
+.wraper2h1 {
+    width:367px;
+    height: 57px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.wraper2P {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    width: 80px;
+    line-height: 140%;
+    color: #4E4E4E;
+}
+
+.wraper2Button {
+    width: 184px;
+    height: 46px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    align-self: center;
+    background: #00AFDB;
+    border:none;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s all ease-out;
+}
+
+.wraper2Button p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.wraper2Button:hover {
+    border-radius: 15px;
+    color:#01AECB;
+}
+
+.OurCommunity {
+    width: 1600px;
+    height: 504px;
+    background-color:#F5F6F7;;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Paginator {
+    width: 83px;
+    height: 18px;
+    float: right;
+    margin-right: 269px;
+    margin-top: 82px;
+}
+
+.Paginator span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #373737;
+}
+
+.paginatorPr:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.OurCommunityWraperLeft {
+    float: left;
+    margin-top: 155px;
+    margin-left: 269px;
+    width: 298px;
+    height: 175px;
+}
+.OurCommunityWraperRight {
+    margin-top: 20px;
+    float: right;
+}
+
+.imgAva {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.OurCommunityH1 {
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 2.4px;
+}
+
+.OurCommunityP {
+    margin-top: -90px;
+    width:298px;
+    height: 175px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: flex-end;
+    color: #4E4E4E;
+}
+
+.firstImg {
+    position: relative;
+    left: 24px;
+    margin-right: 75px;
+    width: 407px;
+    height: 244px;
+}
+
+
+
+.secondImg {
+    position: relative;
+    left: -25px;
+}
+
+.obrez {
+    width: 20px;
+    height: 244px;
+    display: inline-block;
+    overflow: hidden;
+}
 
 
